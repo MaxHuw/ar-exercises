@@ -11,4 +11,5 @@ puts "----------"
 
 @store3.destroy
 
-puts "New store count is #{Store.}"
+puts "New store count is #{Store.count}"
+

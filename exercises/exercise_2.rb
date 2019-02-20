@@ -13,7 +13,7 @@ puts @store1.inspect
 puts @store2.inspect
 
 
-@store1.name = {name: "Newtons"}
+@store1.name = "Newtons"
 @store1.save
 
 puts @store1.inspect

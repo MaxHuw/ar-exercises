@@ -13,4 +13,4 @@ puts "----------"
 
 puts "Create a new store. Enter a name!"
 new_store_name = gets.chomp
-puts Store.create(name: new_store_name, annual_revenue: -100, mens_apparel: true, womens_apparel: true).errors.messages
+puts Store.create(name: new_store_name).errors.messages
